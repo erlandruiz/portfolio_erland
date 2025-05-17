@@ -75,3 +75,30 @@ transition: 0.3s;
         margin-bottom: 50px;
     }
 }
+
+@media(max-width:600px){
+    .footer-top-left p{
+        font-size: 17px;
+    }
+  .footer-top-right{
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+  .footer-top-right img{
+    width: 20px;
+  }
+  .footer-top-right input{
+    font-size: 18px; 
+  }
+  .footer-subscribe{
+    font-size: 17px;
+    padding: 15px 40px;
+  }
+  .footer-bottom-right{
+    font-size: 16px;
+  }
+  .footer-bottom-left{
+    font-size: 17px;
+  }
+}
