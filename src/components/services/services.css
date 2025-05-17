@@ -1,13 +1,15 @@
 .services{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     justify-content: center;
     gap: 80px;
     margin:80px 170px ;
 }
 .services-title{
-    position: relative;
+    
+    position:relative;
+
 }
 .services-title h1{
     padding: 0px 30px;
