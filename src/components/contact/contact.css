@@ -206,3 +206,22 @@
         border-radius: 38px;
     }
 }
+
+@media(max-width:430px){
+    .contact{
+        margin: 40px 50px;
+    }
+    .contact-section{
+        gap: 80px;
+    }
+    .contact-right input{
+        font-size: 14px;
+    }
+    .contact-right textarea{
+        font-size: 14px;
+        width: 90%;
+    }
+    .contact-submit{
+        font-size: 14px;
+    }
+}

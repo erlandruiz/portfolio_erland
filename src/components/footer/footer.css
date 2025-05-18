@@ -102,3 +102,21 @@ transition: 0.3s;
     font-size: 17px;
   }
 }
+
+@media(max-width:430px){
+   .footer{
+    margin: 40px 50px;
+   } 
+   .footer-email-input{
+    font-size: 14px;
+    width: 70%;
+   }
+   .footer-subscribe{
+    font-size: 14px;
+   }
+   .footer-bottom-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+}
